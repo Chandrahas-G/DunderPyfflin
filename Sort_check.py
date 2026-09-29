@@ -1,5 +1,5 @@
-def sorted_array(a):
-    for i in range(len(a) - 1):
+def sorted_array(a,n):
+    for i in range(n - 1):
         if a[i] > a[i + 1]:
             return False
 
@@ -7,5 +7,5 @@ def sorted_array(a):
 
 
 a = [2, 3, 4, 5, 6, 7, 8, 9]
-
-print(sorted_array(a))
+n = len(a)
+print(sorted_array(a,n))
