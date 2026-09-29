@@ -11,9 +11,7 @@ def diff():
 
     print(max_diff)
 
-
 diff()
-
 
 # Without funciton
 a = [3, 4, 1, 6, 9, 2]
