@@ -1,3 +1,7 @@
+# With Functions
+print(max(data))
+print(min(data))
+
 # Minimum
 data = [3,5,1,8,2,9]
 min = data[0]
@@ -9,7 +13,5 @@ for i in range(len(data)):
 print(min)
 
 # Maximum 
-data = [3,5,1,8,2,9]
-
 data = sorted(data)
 print(data[len(data)-1])
